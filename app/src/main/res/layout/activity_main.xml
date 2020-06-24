@@ -70,19 +70,42 @@
                     android:layout_width="12dp"
                     android:layout_height="24dp"
                     android:background="#ffffff"/>
+
                 <TextView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:background="#ff0000"/>
+                    android:background="#ff0000"
+                    android:visibility="gone"
+                    android:id="@+id/rt1"
+                    />
+                <ImageView
+                    android:id="@+id/rb1"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="#ff0000"
+                    android:src="@drawable/red_button"
+
+                    />
 
                 <TextView
                     android:layout_width="21dp"
                     android:layout_height="wrap_content"
                     android:background="#ffffff" />
+
                 <TextView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
+                    android:id="@+id/rt2"
+                    android:visibility="gone"
                     android:background="#ff0000"/>
+                <ImageView
+                    android:id="@+id/rb2"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="#ff0000"
+                    android:src="@drawable/red_button"
+                    />
+
                 <TextView
                     android:layout_width="12dp"
                     android:layout_height="24dp"
@@ -103,7 +126,17 @@
                 <TextView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
+                    android:id="@+id/rt3"
+                    android:visibility="gone"
                     android:background="#ff0000"/>
+                <ImageView
+                    android:id="@+id/rb3"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="#ff0000"
+                    android:src="@drawable/red_button"
+
+                    />
 
                 <TextView
                     android:layout_width="21dp"
@@ -112,7 +145,16 @@
                 <TextView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
+                    android:id="@+id/rt4"
+                    android:visibility="gone"
                     android:background="#ff0000"/>
+                <ImageView
+                    android:id="@+id/rb4"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="#ff0000"
+                    android:src="@drawable/red_button"
+                    />
                 <TextView
                     android:layout_width="12dp"
                     android:layout_height="24dp"
@@ -215,7 +257,16 @@
                 <TextView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
+                    android:id="@+id/gstart"
                     android:background="@drawable/greenborder"/>
+                <ImageView
+                    android:id="@+id/gbstart"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="#009900"
+                    android:visibility="gone"
+                    android:src="@drawable/green_button"
+                    />
                 <TextView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
@@ -280,7 +331,16 @@
                         <TextView
                             android:layout_width="24dp"
                             android:layout_height="24dp"
+                            android:id="@+id/gt1"
+                            android:visibility="gone"
                             android:background="#009900"/>
+                        <ImageView
+                            android:id="@+id/gb1"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="#009900"
+                            android:src="@drawable/green_button"
+                            />
 
                         <TextView
                             android:layout_width="21dp"
@@ -288,8 +348,17 @@
                             android:background="#ffffff" />
                         <TextView
                             android:layout_width="24dp"
+                            android:id="@+id/gt2"
                             android:layout_height="24dp"
+                            android:visibility="gone"
                             android:background="#009900"/>
+                        <ImageView
+                            android:id="@+id/gb2"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="#009900"
+                            android:src="@drawable/green_button"
+                            />
                         <TextView
                             android:layout_width="12dp"
                             android:layout_height="24dp"
@@ -310,20 +379,40 @@
                         <TextView
                             android:layout_width="24dp"
                             android:layout_height="24dp"
+                            android:id="@+id/gt3"
+                            android:visibility="gone"
                             android:background="#009900"/>
+                        <ImageView
+                            android:id="@+id/gb3"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="#009900"
+                            android:src="@drawable/green_button"
+                            />
 
                         <TextView
-                            android:layout_width="21dp"
+                            android:layout_width="24dp"
                             android:layout_height="wrap_content"
                             android:background="#ffffff" />
+
                         <TextView
                             android:layout_width="24dp"
                             android:layout_height="24dp"
-                            android:background="#009900"/>
-                        <TextView
-                            android:layout_width="12dp"
+                            android:id="@+id/gt4"
+                            android:visibility="gone"
+                            android:background="#009900" />
+                        <ImageView
+                            android:id="@+id/gb4"
+                            android:layout_width="24dp"
                             android:layout_height="24dp"
-                            android:background="#ffffff"/>
+                            android:background="#009900"
+                            android:src="@drawable/green_button"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#ffffff" />
                     </LinearLayout>
                     <TextView
                         android:layout_width="96dp"
@@ -361,10 +450,20 @@
                    android:layout_width="24dp"
                    android:layout_height="24dp"
                    android:background="@drawable/border"/>
+
                <TextView
+                   android:id="@+id/rstart"
                    android:layout_width="24dp"
                    android:layout_height="24dp"
-                   android:background="@drawable/redborder"/>
+                   android:background="@drawable/redborder" />
+               <ImageView
+                   android:id="@+id/rbstart"
+                   android:layout_width="24dp"
+                   android:layout_height="24dp"
+                   android:background="#ff0000"
+                   android:visibility="gone"
+                   android:src="@drawable/red_button"
+                   />
                <TextView
                    android:layout_width="24dp"
                    android:layout_height="24dp"
@@ -560,10 +659,21 @@
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:background="@drawable/border"/>
+
                 <TextView
+                    android:id="@+id/ystart"
+                    android:layout_width="24dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/yellowborder" />
+                <ImageView
+                    android:id="@+id/ybstart"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:background="@drawable/yellowborder"/>
+                    android:background="#FFCC00"
+                    android:visibility="gone"
+                    android:src="@drawable/yellow_button"
+                    />
+
                 <TextView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
@@ -622,8 +732,17 @@
                             android:background="#ffffff"/>
                         <TextView
                             android:layout_width="24dp"
+                            android:id="@+id/bt1"
                             android:layout_height="24dp"
+                            android:visibility="gone"
                             android:background="#66CCFF"/>
+                        <ImageView
+                            android:id="@+id/bb1"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="#66CCFF"
+                            android:src="@drawable/blue_button"
+                            />
 
                         <TextView
                             android:layout_width="21dp"
@@ -632,7 +751,16 @@
                         <TextView
                             android:layout_width="24dp"
                             android:layout_height="24dp"
+                            android:id="@+id/bt2"
+                            android:visibility="gone"
                             android:background="#66CCFF"/>
+                        <ImageView
+                            android:id="@+id/bb2"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="#66CCFF"
+                            android:src="@drawable/blue_button"
+                            />
                         <TextView
                             android:layout_width="12dp"
                             android:layout_height="24dp"
@@ -653,7 +781,16 @@
                         <TextView
                             android:layout_width="24dp"
                             android:layout_height="24dp"
+                            android:id="@+id/bt3"
+                            android:visibility="gone"
                             android:background="#66CCFF"/>
+                        <ImageView
+                            android:id="@+id/bb3"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="#66CCFF"
+                            android:src="@drawable/blue_button"
+                            />
 
                         <TextView
                             android:layout_width="21dp"
@@ -662,7 +799,17 @@
                         <TextView
                             android:layout_width="24dp"
                             android:layout_height="24dp"
+                            android:id="@+id/bt4"
+                            android:visibility="gone"
                             android:background="#66CCFF"/>
+                        <ImageView
+                            android:id="@+id/bb4"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="#66CCFF"
+                            android:src="@drawable/blue_button"
+
+                            />
                         <TextView
                             android:layout_width="12dp"
                             android:layout_height="24dp"
@@ -712,7 +859,16 @@
                 <TextView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
+                    android:id="@+id/bstart"
                     android:background="@drawable/blueborder"/>
+                <ImageView
+                    android:id="@+id/bbstart"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="#66CCFF"
+                    android:visibility="gone"
+                    android:src="@drawable/blue_button"
+                    />
                 <TextView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
@@ -831,7 +987,16 @@
                         <TextView
                             android:layout_width="24dp"
                             android:layout_height="24dp"
+                            android:id="@+id/yt1"
+                            android:visibility="gone"
                             android:background="#FFCC00"/>
+                        <ImageView
+                            android:id="@+id/yb1"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="#FFCC00"
+                            android:src="@drawable/yellow_button"
+                            />
 
                         <TextView
                             android:layout_width="21dp"
@@ -840,7 +1005,17 @@
                         <TextView
                             android:layout_width="24dp"
                             android:layout_height="24dp"
+                            android:id="@+id/yt2"
+                            android:visibility="gone"
                             android:background="#FFCC00"/>
+                        <ImageView
+                            android:id="@+id/yb2"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="#FFCC00"
+                            android:src="@drawable/yellow_button"
+
+                            />
                         <TextView
                             android:layout_width="12dp"
                             android:layout_height="24dp"
@@ -861,7 +1036,16 @@
                         <TextView
                             android:layout_width="24dp"
                             android:layout_height="24dp"
+                            android:id="@+id/yt3"
+                            android:visibility="gone"
                             android:background="#FFCC00"/>
+                        <ImageView
+                            android:id="@+id/yb3"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="#FFCC00"
+                            android:src="@drawable/yellow_button"
+                            />
 
                         <TextView
                             android:layout_width="21dp"
@@ -870,7 +1054,16 @@
                         <TextView
                             android:layout_width="24dp"
                             android:layout_height="24dp"
+                            android:id="@+id/yt4"
+                            android:visibility="gone"
                             android:background="#FFCC00"/>
+                        <ImageView
+                            android:id="@+id/yb4"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:background="#FFCC00"
+                            android:src="@drawable/yellow_button"
+                            />
                         <TextView
                             android:layout_width="12dp"
                             android:layout_height="24dp"
